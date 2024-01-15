@@ -1,0 +1,15 @@
+/* Import base */
+@import url("bases/base.css");
+
+/* Import components */
+@import url("common/heading.css");
+@import url("common/buttons.css");
+@import url("common/cards.css");
+@import url("common/colors.css");
+
+/* Import section */
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/services.css");
+@import url("sections/benefits.css");
+@import url("sections/footer.css");
