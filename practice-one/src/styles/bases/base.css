@@ -1,0 +1,20 @@
+/* Import font */
+@font-face {
+    font-family: 'gilroy-regular';
+    src: url(../../assets/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url(../../assets/fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: url(../../assets/fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url(../../assets/fonts/Gilroy-ExtraBold.ttf);
+}
