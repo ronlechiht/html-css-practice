@@ -4,24 +4,9 @@
     src: url(../../assets/fonts/Gilroy-Regular.ttf);
 }
 
-@font-face {
-    font-family: 'gilroy-medium';
-    src: url(../../assets/fonts/Gilroy-Medium.ttf);
-}
-
-@font-face {
-    font-family: 'gilroy-semibold';
-    src: url(../../assets/fonts/Gilroy-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'gilroy-extrabold';
-    src: url(../../assets/fonts/Gilroy-ExtraBold.ttf);
-}
-
 /* Reset css */
 body {
-    font-family: 'gilroy-medium', sans-serif;
+    font-family: 'gilroy-regular', sans-serif;
     color: #9E9DA2;
     margin: 0;
 }
