@@ -1,0 +1,26 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.btn-primary {
+  border-radius: 6px;
+  padding: 12px 28px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #75BF7A;
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  padding: 21px 32px;
+  font-size: 25px;
+  font-weight: 800;
+  background-color: #000000;
+}
+
+.btn-sm {
+  padding: 15px 22px;
+  font-size: 17px;
+}

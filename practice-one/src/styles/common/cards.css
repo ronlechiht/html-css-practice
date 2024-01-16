@@ -1,0 +1,18 @@
+.card-order {
+  font-size: 88px;
+  font-weight: 500;
+  line-height: 119;
+  color: #75BF7A;
+}
+
+.card-title {
+  font-size: 34px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.card-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 23px;
+}
