@@ -5,6 +5,15 @@
 * Figma design [link](https://www.figma.com/community/file/1162688130213825482)
 * Plan [link](https://docs.google.com/document/d/1qwQ10cP_4_BJm-84lXG9i0cO17G75VSsaxCbeR82D9A/edit?usp=sharing)
 
+### How to start
+
+* Clone project : git clone https://github.com/ronlechiht/html-css-practice.git
+* Move to practice one folder: cd html-css-practice/practice-one
+* Checkout branch : git checkout main
+* Install packages `npm install`
+* Start project: `npm start`
+* Open on web: http://localhost:1234
+
 ## REQUIREMENTS
 * Work fine on Chrome browser latest version 
 * Use the right HTML tags
