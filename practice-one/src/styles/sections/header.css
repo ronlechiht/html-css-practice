@@ -1,0 +1,28 @@
+.header {
+  min-height: 174px;
+}
+.header-container {
+  padding: 83px 80px 36px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.logo-img {
+  min-width: 52px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 46px;
+}
+
+.nav-item {
+  font-size: 17px;
+  color: #000000;
+  align-self: center;
+}
+
+.nav-item:hover {
+  color: #75BF7A;
+}
