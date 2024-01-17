@@ -2,14 +2,10 @@
   font-size: 22px;
   font-weight: 800;
   line-height: 50px;
-  color: #000000;
+  color: #000;
 }
 
-.step-text {
+.step-decs {
   font-size: 20px;
   line-height: 26px;
-}
-
-.step-align-right {
-  text-align: right;
 }
