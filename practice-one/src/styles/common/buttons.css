@@ -1,0 +1,33 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.btn-primary {
+  border-radius: 6px;
+  padding: 12px 28px;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+  align-self: center;
+  background-color: #75bf7a;
+}
+
+.btn-primary:hover {
+  background-color: #8eca93;
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  padding: 21px 32px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 800;
+  background-color: #000;
+}
+
+.btn-sm {
+  padding: 15px 22px;
+  font-size: 17px;
+}

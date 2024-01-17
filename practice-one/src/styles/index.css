@@ -6,7 +6,7 @@
 @import url("common/heading.css");
 @import url("common/buttons.css");
 @import url("common/cards.css");
-@import url("common/colors.css");
+@import url("common/step.css");
 
 /* Import section */
 @import url("sections/header.css");

@@ -1,9 +1,14 @@
 @font-face {
-    font-family: 'gilroy-regular';
-    src: url(../../assets/fonts/Gilroy-Regular.ttf);
+  font-family: 'gilroy-regular';
+  src: url(../../assets/fonts/Gilroy-Regular.ttf);
 }
 
 body {
-    font-family: 'gilroy-regular', sans-serif;
-    color: #9E9DA2;
+  font-family: 'gilroy-regular', sans-serif;
+  font-weight: 500;
+  color: #9e9da2;
+}
+
+main {
+  background-color: #f9f9f9;
 }
