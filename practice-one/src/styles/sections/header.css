@@ -12,17 +12,21 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  column-gap: 46px;
+}
+
+.nav-list {
+  display: flex;
   column-gap: 46px;
 }
 
 .nav-item {
   font-size: 17px;
-  color: #000000;
+  color: #000;
   align-self: center;
 }
 
-.nav-item:hover {
+.nav-item > a:hover {
   color: #75bf7a;
 }
