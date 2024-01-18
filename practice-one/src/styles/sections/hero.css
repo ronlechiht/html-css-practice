@@ -26,7 +26,7 @@
   line-height: 28px;
 }
 
-.btn-group {
+.hero-btn-group {
   display: flex;
   justify-content: space-between;
   margin-top: 62px;
@@ -37,6 +37,7 @@
   height: 583px;
 }
 
+/* Registration form */
 .reg-form {
   display: flex;
   justify-content: space-between;
@@ -46,7 +47,7 @@
   background-color: #75bf7a;
 }
 
-.reg-form-desc {
+.reg-form-title {
   max-width: 16ch;
   color: #fff;
   font-size: 25px;
@@ -61,18 +62,18 @@
   column-gap: 10px;
 }
 
-.reg-form-input-field {
+.reg-form-control {
   flex-grow: 1;
   max-width: 500px;
   border: none;
   border-radius: 5px;
   font-size: 20px;
   font-weight: 600;
+  padding-left: 35px;
 }
 
-.reg-form-input-field::placeholder {
+.reg-form-control::placeholder {
   color: #dadada;
-  padding-left: 35px;
 }
 
 .reg-form-btn {
