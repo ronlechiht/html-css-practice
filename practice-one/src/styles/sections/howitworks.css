@@ -15,10 +15,6 @@
 .step-by-step {
   display: flex;
   flex-wrap: wrap;
-  /*display: grid;
-  grid-template-areas:
-  "item-1 item-5 item-2"
-  "item-3 item-5 item-4";*/
   justify-content: space-around;
   column-gap: 480px;
   row-gap: 40px;
@@ -35,36 +31,11 @@
   align-items: end;
 }
 
-/*.step:nth-child(1) {
-  grid-area: item-1;
-  text-align: right;
-  align-items:end;
-}
-
-.step:nth-child(2) {
-  grid-area: item-2;
-}
-
-.step:nth-child(3) {
-  grid-area: item-3;
-  text-align: right;
-  align-items:end;
-}
-
-.step:nth-child(4) {
-  grid-area: item-4;
-}*/
-
 .phone-img-container {
   background-color: #75bf7a;
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  position: relative;
-  /*justify-self: center;*/
-  /*align-self: center;*/
-  /*margin: auto;*/
-  /*display: block;*/
   position: absolute;
   top: 57%;
   left: 50%;
