@@ -1,6 +1,6 @@
 .how-it-works {
-  min-height: 955px;
   padding-top: 128px;
+  padding-bottom: 88px;
   position: relative;
 }
 
@@ -13,10 +13,9 @@
 }
 
 .step-by-step {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  column-gap: 20%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: end;
   row-gap: 40px;
   margin-top: 100px;
 }
@@ -24,11 +23,14 @@
 .step {
   display: flex;
   flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .step:nth-of-type(odd) {
   text-align: right;
   align-items: end;
+  justify-self: start;
 }
 
 .phone-img-container {
@@ -53,7 +55,7 @@
 .carousel-inner {
   display: flex;
   justify-content: center;
-  margin-top: 85px;
+  margin-top: 128px;
 }
 
 .carousel-item {
