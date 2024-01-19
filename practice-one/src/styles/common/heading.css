@@ -4,4 +4,9 @@
   font-size: 46px;
   font-weight: 800;
   line-height: 50px;
+  color: #000;
+}
+
+.heading-highlight {
+  color: #75bf7a;
 }

@@ -1,11 +1,25 @@
+.step-order {
+  width: 63px;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: 800;
+  color: #75bf7a;
+  background-image: url(../../assets/images/how-it-works/step-order-bg.svg);
+}
+
 .step-title {
+  text-transform: uppercase;
   font-size: 22px;
   font-weight: 800;
   line-height: 50px;
   color: #000;
 }
 
-.step-decs {
+.step-desc {
   font-size: 20px;
   line-height: 26px;
+  max-width: 23ch;
 }
