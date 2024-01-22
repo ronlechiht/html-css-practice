@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 38px;;
+}
+
+.contact-detail {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.contact-title {
+  font-size: 22px;
+  color: #272042;
+  text-transform: capitalize;
+}
+
+.footer-btn-group {
+  display: flex;
+  column-gap: 42px;
+}
+
+.footer-copyright {
+  margin-top: 38px;
+  color: #75bf7a;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
