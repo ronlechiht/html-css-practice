@@ -22,7 +22,8 @@
 
 .card-info {
   padding-left: 40px;
-  max-width: /*385px*/45%;
+  padding-right: 50px;
+  max-width: 45%;
 }
 
 .card-order {
