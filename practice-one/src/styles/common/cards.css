@@ -14,7 +14,7 @@
 
 .card-heading {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   font-size: 34px;
   font-weight: 600;
   color: #000;
@@ -29,11 +29,7 @@
   font-size: 88px;
   font-weight: 500;
   color: #75bf7a;
-}
-
-.card-title {
-  align-self: center;
-  margin-left: 25px;
+  padding-right: 25px;
 }
 
 .card-desc {

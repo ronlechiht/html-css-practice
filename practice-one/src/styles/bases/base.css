@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'gilroy-regular';
   src: url(../../assets/fonts/Gilroy-Regular.ttf);
+  font-display: swap;
 }
 
 body {
