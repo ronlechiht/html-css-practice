@@ -1,0 +1,29 @@
+.header-container {
+  padding: 83px 80px 36px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.logo-img {
+  min-width: 52px;
+}
+
+.nav-menu {
+  display: flex;
+  column-gap: 46px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 46px;
+}
+
+.nav-item {
+  font-size: 17px;
+  color: #000;
+  align-self: center;
+}
+
+.nav-item > a:hover {
+  color: #75bf7a;
+}

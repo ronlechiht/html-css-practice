@@ -1,0 +1,83 @@
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items:end;
+}
+
+.hero-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 61px;
+  font-weight: 800;
+  line-height: 66px;
+  color: #000;
+  text-transform: uppercase;
+  max-width: 15ch;
+}
+
+.hero-desc {
+  max-width: 35ch;
+  margin-top: 27px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hero-btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
+}
+
+.hero-img {
+  width: 553px;
+  height: 583px;
+}
+
+/* Registration form */
+.reg-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86px;
+  padding: 50px 70px;
+  border-radius: 10px;
+  background-color: #75bf7a;
+}
+
+.reg-form-title {
+  max-width: 16ch;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.reg-form-input {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+}
+
+.reg-form-control {
+  flex-grow: 1;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 35px;
+}
+
+.reg-form-control::placeholder {
+  color: #dadada;
+}
+
+.reg-form-btn {
+  padding: 18px 29px;
+  font-size: 22px;
+}
+
+

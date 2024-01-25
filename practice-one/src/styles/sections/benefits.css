@@ -1,0 +1,13 @@
+.benefits {
+  padding-bottom: 168px;
+}
+
+.benefits-cards {
+  margin: 52px auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  width: 90%;
+}
+

@@ -1,0 +1,47 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+}
+
+.card:nth-of-type(even) {
+  align-self: end;
+  flex-direction: row-reverse;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  font-weight: 600;
+  color: #000;
+}
+
+.card-info {
+  padding-left: 40px;
+  padding-right: 50px;
+  max-width: 45%;
+}
+
+.card-order {
+  font-size: 88px;
+  font-weight: 500;
+  color: #75bf7a;
+  padding-right: 25px;
+}
+
+.card-desc {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.card-img-container {
+  margin: 24px 110px;
+  width: 256px;
+  height: 256px;
+}

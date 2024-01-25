@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url(../../assets/fonts/Gilroy-Regular.ttf);
+  font-display: swap;
+}
+
+body {
+  font-family: 'gilroy-regular', sans-serif;
+  font-weight: 500;
+  color: #9e9da2;
+}
+
+main {
+  padding: 55px 80px;
+  background-color: #f9f9f9;
+}
