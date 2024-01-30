@@ -1,0 +1,27 @@
+{
+    "name": "practice-two",
+    "version": "1.0.0",
+    "description": "Just example for learning html css",
+    "source": "src/index.html",
+    "scripts": {
+      "start": "parcel"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ronlechiht/html-css-practice.git"
+    },
+    "keywords": [
+      "html",
+      "css",
+      "training"
+    ],
+    "author": "ron.lechi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ronlechiht/html-css-practice/issues"
+    },
+    "homepage": "https://github.com/ronlechiht/html-css-practice#readme",
+    "devDependencies": {
+      "parcel": "latest"
+    }
+  }
