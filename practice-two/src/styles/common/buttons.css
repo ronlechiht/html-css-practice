@@ -13,6 +13,9 @@
 }
 
 .btn-primary {
+  padding: 12px 28px;
+  font-size: 22px;
+  font-weight: 600;
   text-transform: capitalize;
   align-self: center;
   background-color: #75bf7a;
