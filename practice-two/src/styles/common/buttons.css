@@ -1,0 +1,38 @@
+.btn {
+  border: none;
+  display: block;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 800px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  text-transform: capitalize;
+  align-self: center;
+  background-color: #75bf7a;
+}
+
+.btn-primary:hover {
+  background-color: #8eca93;
+}
+
+.btn-secondary {
+  text-transform: uppercase;
+  background-color: #000;
+}
+
+.btn-secondary:hover {
+  background-color: #4c4c4c;
+}
+
+.btn-download {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
