@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.logo-img>img{
+.logo-img {
   width: 93px;
   height: 26px;
 }
@@ -27,7 +27,7 @@
     padding-bottom: 37px;
   }
 
-  .logo-img>img{
+  .logo-img {
     width: 180px;
     height: 51px;
   }
@@ -51,7 +51,7 @@
     align-self: center;
   }
 
-  .nav-item > a:hover {
+  .nav-link:hover {
     color: #75bf7a;
   }
 
