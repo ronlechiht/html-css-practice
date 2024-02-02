@@ -16,7 +16,10 @@ body {
 
 @media screen and (min-width: 1000px) {
   body {
-    /*background-color: #fff;*/
+    padding: 0;
+  }
+
+  main {
     padding-left: 80px;
     padding-right: 80px;
   }
