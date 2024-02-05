@@ -1,0 +1,22 @@
+.benefits {
+  padding-top: 28px;
+}
+
+.benefits-cards {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .benefits {
+    padding-top: 148px;
+  }
+
+  .benefits-cards {
+    margin: 52px auto;
+    row-gap: 56px;
+    width: 90%;
+  }
+}
