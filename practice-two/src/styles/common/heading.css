@@ -10,3 +10,10 @@
 .heading-highlight {
   color: #75bf7a;
 }
+
+@media screen and (min-width: 1280px) {
+  .heading {
+    font-size: 46px;
+    line-height: 50px;
+  }
+}

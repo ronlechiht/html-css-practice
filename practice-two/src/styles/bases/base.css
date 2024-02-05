@@ -14,9 +14,16 @@ body {
   padding-right: 20px;
 }
 
-@media screen and (min-width: 1000px) {
+li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 1280px) {
   body {
-    /*background-color: #fff;*/
+    padding: 0;
+  }
+
+  main {
     padding-left: 80px;
     padding-right: 80px;
   }
