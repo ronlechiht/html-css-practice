@@ -45,4 +45,9 @@
     padding: 13px 32px;
     font-size: 24px;
   }
+
+  .btn-sm {
+    padding: 8px 14px;
+    font-size: 17px;
+  }
 }
