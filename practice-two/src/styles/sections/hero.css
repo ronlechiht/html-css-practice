@@ -71,11 +71,11 @@
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
+  text-align: center;
 }
 
 .reg-form-control::placeholder {
   color: #dadada;
-  text-align: center;
 }
 
 .reg-form-btn {
@@ -147,6 +147,7 @@
     height: 62px;
     font-size: 20px;
     padding-left: 35px;
+    text-align: left;
   }
 
   .reg-form-control::placeholder {
