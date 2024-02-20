@@ -6,7 +6,9 @@
   padding-bottom: 50px;
 }
 
-.step-order {
+.step::before {
+  counter-increment: step;
+  content: counter(step);
   width: 55px;
   height: 55px;
   display: flex;
@@ -43,7 +45,6 @@
   .step:nth-of-type(odd) {
     text-align: right;
     align-items: end;
-    /*justify-self: start;*/
     padding-left: 0;
     padding-right: 40%;
   }

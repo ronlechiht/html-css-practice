@@ -47,20 +47,20 @@
       <section class="hero">
         <div class="hero-content">
           <div class="hero-img-container">
-            <img
-              src="assets/images/hero/hero-img.webp"
+            <picture class="hero-img">
+              <source media="(min-width:1280px)" srcset="assets/images/hero/hero-img.webp">
+              <img
+              src="assets/images/hero/hero-img-sm.webp"
               alt="hero image"
-              class="hero-img"
-            />
+              />
+            </picture>
           </div>
           <article class="hero-article">
             <h2 class="hero-title">download app, save money, make friends!</h2>
             <p class="hero-desc">
               Its simple and its free. Play your part in reducing Carbon
               Footprint and help Mother Nature to sustain its beauty. So what
-              are you waiting for ?
-              <br />
-              Lets ride together
+              are you waiting for ? Lets ride together
             </p>
             <div class="hero-btn-group">
               <button class="btn btn-secondary btn-download">
@@ -85,8 +85,7 @@
         <form action="#" class="reg-form">
           <p class="reg-form-title">
             Let's go. Get a link
-            <br />
-            to download the app.
+            <span class="display-block">to download the app.</span>
           </p>
           <div class="reg-form-input">
             <input
@@ -114,11 +113,13 @@
           your user account. when approved you may start driving.
         </p>
         <div class="phone-img-container">
-          <img
-            src="assets/images/how-it-works/phone.webp"
+          <picture class="phone-img">
+            <source media="(min-width:1280px)" srcset="assets/images/how-it-works/phone.webp">
+            <img
+            src="assets/images/how-it-works/phone-sm.webp"
             alt="phone"
-            class="phone-img"
-          />
+            />
+          </picture>
           <ul class="carousel-inner">
             <li class="carousel-item active"></li>
             <li class="carousel-item"></li>
@@ -126,28 +127,23 @@
             <li class="carousel-item"></li>
           </ul>
         </div>
-        <ul class="step-by-step">
+        <ol class="step-by-step">
           <li class="step">
-            <div class="step-order">1</div>
             <h3 class="step-title">request a ride</h3>
             <p class="step-desc">
               Have to reach office or going for shopping ?
-              <br />
-              Just put your current location and destination and search a ride
-              that suits you
+              <span class="display-block">Just put your current location and destination and search a ride
+              that suits you</span>
             </p>
           </li>
           <li class="step">
-            <div class="step-order">2</div>
             <h3 class="step-title">post a ride</h3>
             <p class="step-desc">
               Going somewhere but hate to travel alone -
-              <br />
-              just post your ride details and publish it
+              <span class="display-block">just post your ride details and publish it</span>
             </p>
           </li>
           <li class="step">
-            <div class="step-order">3</div>
             <h3 class="step-title">instant notifications</h3>
             <p class="step-desc">
               Get instant notifications for your rides and be in contact with
@@ -155,13 +151,12 @@
             </p>
           </li>
           <li class="step">
-            <div class="step-order">4</div>
             <h3 class="step-title">cashless payment</h3>
             <p class="step-desc">
               Payment made easy by using your own Wallet - no more cash to carry
             </p>
           </li>
-        </ul>
+        </ol>
       </section>
 
       <!--=============================== Section Benefits ===============================-->

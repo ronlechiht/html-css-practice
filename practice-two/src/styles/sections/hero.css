@@ -8,10 +8,6 @@
   justify-content: center;
 }
 
-.hero-img {
-  width: 320px;
-}
-
 .hero-article {
   margin-top: 33px;
   text-align: center;
@@ -94,10 +90,6 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: end;
-  }
-
-  .hero-img {
-    width: max-content;
   }
 
   .hero-article {
