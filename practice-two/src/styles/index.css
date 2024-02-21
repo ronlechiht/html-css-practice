@@ -4,8 +4,8 @@
 
 /* Import components */
 @import url("common/heading.css");
-@import url("common/buttons.css");
-@import url("common/cards.css");
+@import url("common/button.css");
+@import url("common/card.css");
 @import url("common/step.css");
 
 /* Import section */
